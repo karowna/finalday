@@ -16,17 +16,17 @@ What can we help you with?
 order = input("Please select a number: ")
 
 if order == "1":
-    runAddOrder()
+    service.runAddOrder()
 elif order == "2":
-    runReadOrderId()
+    service.runReadOrderId()
 elif order == "3":
-    runReadAll()
+    service.runReadAll()
 elif order == "4":
-    runUpdateOrderId()
+    service.runUpdateOrderId()
 elif order == "5":
-    runDeleteOrderId()
+    service.runDeleteOrderId()
 elif order == "6":
-    runDeleteAllOrders()
+    service.runDeleteAllOrders()
 else:
     print("That was not a valid number, please try again")
 
